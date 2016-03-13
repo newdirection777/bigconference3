@@ -1,9 +1,9 @@
-Welcome to Conference Central, a web app for managing conferences.
+###Welcome to Conference Central, a web app for managing conferences.###
 
 This app allows you to view, create, and modify conferences and conference
 sessions.
 
-1. How to use this app:
+###How to use this app:###
 
 You can access this app through the web GUI by pointing your browser at:
 
@@ -19,7 +19,7 @@ items.  The web GUI allows you to view, create, and edit conferences.  The
 API allows you to view, create, and edit both conferences and sessions.
 
 
-2. Design notes:
+###Design notes:###
 
 The Session class contains the fields specified in the problem description
 represented using corresponding NDB data types.  The 'date' field is represented
@@ -40,7 +40,7 @@ the user decide if they want to attend a session with that speaker.
 In cases like that we could introduce a separate data class called Speaker.
 
 
-3. Task notes:
+###Task notes:###
 
 a) For Task 3, the following additional queries are implemented:
 
