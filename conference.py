@@ -787,7 +787,7 @@ class ConferenceApi(remote.Service):
 			start_date_time = datetime(d.year, d.month, d.day, t.hour, t.minute)
 			
 			if (time_now < start_date_time):
-				if (start_date_time - time_now < two_hours)):
+				if (start_date_time - time_now < two_hours):
 					starting_soon.items.append(self._copySessionToForm(session))
 				
 		return starting_soon
